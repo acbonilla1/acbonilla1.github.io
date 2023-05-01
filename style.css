@@ -1,5 +1,7 @@
 /* Keyframes for Animations */
 
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+
 @keyframes bruh {
     from {color: #208ae6; Opacity: 1;}
     to {color: #208ae6; Opacity: 0;}
@@ -83,9 +85,9 @@ h4, h3 {
     text-align:center;
 }
 
-h4 {
-    font-family: 'PT Sans', sans-serif;
-    font-size:21px;
+h4, h4 {
+    font-family: 'Mukta', sans-serif;;
+    font-size: 11px; !important
     color:#c9dce0;
     transition: text-indent 0.5s ease-out;
 }
@@ -175,6 +177,11 @@ div.entirebody {
     height:200px;
     background-color:#99cedb;
     color:Black;
+}
+
+div.dividingBar {
+  height:40px;
+  background-color:#255a6a;
 }
 
 div.divcareer {
